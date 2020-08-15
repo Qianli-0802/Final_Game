@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+audio_play_sound(snd_background, 0, 1);
+
 randomize();
 
 global.state_pos_choice = 0;
@@ -58,6 +60,7 @@ roundcount = 1;
 attack_player = false;
 
 graphshown = false;
+ruleshown = false;
 majorsignal_show = true;
 confirm_enable = false;
 
@@ -74,13 +77,18 @@ player_signal.image_index = 4;
 player_signal.image_speed = 0;
 
 col_fire = make_color_rgb(209, 26, 45);
-col_water = make_color_rgb(255, 255, 255);
+col_water = make_color_rgb(0, 0, 0);
 col_wood = make_color_rgb(66, 134, 117);
-col_metal = make_color_rgb(0, 0, 0);
+col_metal = make_color_rgb(255, 255, 255);
 col_soil = make_color_rgb(255, 166, 15);
+col_blue = make_color_rgb(20, 74, 116);
 
 lay_id = layer_get_id("Background");
 back_id = layer_background_get_id(lay_id); 
 shake_screen = 10;
+
+instruct_string = "";
 shake_card = 3;
 bg_color = 10;
+
+end_sound = false;

@@ -4,12 +4,10 @@
 draw_set_font(fnt_words);
 draw_set_color(c_black);
 draw_set_halign(fa_center);
+draw_set_valign(fa_top);
 
 col_fire = make_color_rgb(209, 26, 45);
-col_water = make_color_rgb(255, 255, 230);
-col_wood = make_color_rgb(66, 134, 117);
-col_metal = make_color_rgb(0, 0, 0);
-col_soil = make_color_rgb(255, 166, 15);
+
 
 
 if(global.state = global.state_pos_choice){
@@ -49,7 +47,7 @@ if(global.state = global.state_pos_clear){
 		draw_set_color(c_black);
 		draw_text(0.5*room_width, 1170, sentence2);
 		draw_set_color(col_fire);
-		draw_text(0.5*room_width, 1300, "Press Space to Continue");	
+		draw_text(0.5*room_width, 1300, "Click to Continue");	
 	}
 }
 
@@ -60,6 +58,6 @@ if(global.shownumbers == true){
 	draw_text(0.5*room_width, 1200, sentence2);
 	draw_set_font(fnt_words2);
 	draw_set_color(col_fire);
-	draw_text(1218, 350, "Life: " + string(global.life_ai));
-	draw_text(1218, 1008, "Life: " + string(global.life_player));
+	draw_text(1218, 355, "Life: " + string(global.life_ai));
+	draw_text(1218, 1010, "Life: " + string(global.life_player));
 }

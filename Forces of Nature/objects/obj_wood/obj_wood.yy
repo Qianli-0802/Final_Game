@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_wood",
     "eventList": [
-        
+        {
+            "id": "4e605001-6c31-46ca-88d6-d49f45d6f308",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2c1b01a0-83d7-4642-a11b-fe3455c2d38b"
+        },
+        {
+            "id": "7abeb717-2a52-4c9a-ad7a-5f2f50c8eb45",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "2c1b01a0-83d7-4642-a11b-fe3455c2d38b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

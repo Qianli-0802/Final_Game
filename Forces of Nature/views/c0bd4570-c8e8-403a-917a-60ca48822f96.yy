@@ -9,7 +9,8 @@
         "9a4cc8f5-73c4-465d-84ce-a15301c35416",
         "3356e3c1-3f5f-4e87-81d0-787a6a8d3c2b",
         "31813064-fff6-48f4-8ab0-a871989d2ff2",
-        "8b754d8d-c836-4c67-9c2f-66d33f775aa3"
+        "8b754d8d-c836-4c67-9c2f-66d33f775aa3",
+        "34cf03ca-d53d-40db-84dc-b9ce1be6ea73"
     ],
     "filterType": "GMSprite",
     "folderName": "Chessboards",

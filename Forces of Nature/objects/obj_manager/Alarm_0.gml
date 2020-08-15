@@ -8,18 +8,28 @@ if(global.state == global.state_judge){
 		if(attack_player == true){
 			switch(global.major_player.face_index){
 				case(0): layer_background_blend(back_id, col_wood);
+				break;
 				case(1): layer_background_blend(back_id, col_fire);
+				break;
 				case(2): layer_background_blend(back_id, col_metal);
+				break;
 				case(3): layer_background_blend(back_id, col_water);
+				break;
 				case(4): layer_background_blend(back_id, col_soil);
+				break;
 			}
 		} else{
 			switch(global.major_ai.face_index){
 				case(0): layer_background_blend(back_id, col_wood);
+				break;
 				case(1): layer_background_blend(back_id, col_fire);
+				break;
 				case(2): layer_background_blend(back_id, col_metal);
+				break;
 				case(3): layer_background_blend(back_id, col_water);
+				break;
 				case(4): layer_background_blend(back_id, col_soil);
+				break;
 			}
 		}
 	} else{ //ADDED if the timer is odd

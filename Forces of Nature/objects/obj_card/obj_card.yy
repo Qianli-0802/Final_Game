@@ -23,6 +23,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "4c5e968e-36ea-4838-9b18-4395120aa083"
+        },
+        {
+            "id": "85e77bc9-eb95-4627-bb2a-6233783e479e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "4c5e968e-36ea-4838-9b18-4395120aa083"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -194,6 +204,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "destroy",
+            "varType": 3
+        },
+        {
+            "id": "49ad902a-5560-405c-9450-0ccdb27c76cd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "soundplay",
             "varType": 3
         }
     ],

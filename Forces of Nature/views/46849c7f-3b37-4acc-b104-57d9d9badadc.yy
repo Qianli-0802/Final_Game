@@ -11,7 +11,8 @@
         "3593f8bf-60f6-4734-8333-352d5be7f1ad",
         "23ebb726-e490-47b3-9492-1aaf9574125a",
         "aa1a1dda-5acf-4c70-9047-a02903ba38cb",
-        "2dbfcf1b-e80f-4ec6-8189-c86d17ad84ea"
+        "2dbfcf1b-e80f-4ec6-8189-c86d17ad84ea",
+        "4c5fe800-afa9-4d44-afe2-fc06caea7a41"
     ],
     "filterType": "GMSprite",
     "folderName": "Position Cards",

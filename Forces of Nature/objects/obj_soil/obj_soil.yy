@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_soil",
     "eventList": [
-        
+        {
+            "id": "8fbe71aa-9462-4523-85a0-3577aa0e7d69",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "dc1c27c2-ebef-4a1d-bc9d-b805bf65f5cb"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": [

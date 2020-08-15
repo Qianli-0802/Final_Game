@@ -6,6 +6,7 @@ if(global.state == global.state_pos_choice){
 		if(mouse_check_button_pressed(mb_left)){
 			global.pos_selected_player.face_up = true;
 			global.pos_chosen = true;
+			audio_play_sound(snd_select, 0, 0);
 			global.state = global.state_pos_clear;
 		}	
 	}
@@ -19,6 +20,7 @@ if(global.state == global.state_pos_clear){
 			while(global.pos_selected_ai = global.pos_selected_player){
 				var index = floor(random_range(0,4.1));
 				global.pos_selected_ai = global.deck_pos[| index];
+				audio_play_sound(snd_select, 0, 0);
 			}
 		}
 		var selected_ai = global.pos_selected_ai;
@@ -26,7 +28,7 @@ if(global.state == global.state_pos_clear){
 		selected_ai.face_up = true;
 		ai_selected = true;
 	}
-	if(global.pos_selected_ai != noone && keyboard_check_pressed(vk_space)){
+	if(global.pos_selected_ai != noone && mouse_check_button_pressed(mb_left)){
 		for(i = 0; i < 5; i++){
 			var dealtcard = global.deck_pos[| i];
 			if(dealtcard == global.pos_selected_player){
